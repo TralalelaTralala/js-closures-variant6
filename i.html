@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Timer Manager + Async Queue
+    </title>
+
+    <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            Timer Manager + Async Queue
+        </h1>
+
+        <!-- КНОПКИ ТАЙМЕРІВ -->
+
+        <div class="buttons">
+
+            <button id="startTimer">
+                Запустити таймер
+            </button>
+
+            <button id="pauseTimers">
+                Пауза
+            </button>
+
+            <button id="resumeTimers">
+                Продовжити
+            </button>
+
+            <button id="clearAll">
+                Очистити все
+            </button>
+
+        </div>
+
+        <!-- СПИСОК АКТИВНИХ ТАЙМЕРІВ -->
+
+        <h2>
+            Активні таймери
+        </h2>
+
+        <ul id="timerList"></ul>
+
+        <hr>
+
+        <!-- КНОПКИ ЧЕРГИ -->
+
+        <div class="queue-buttons">
+
+            <button id="addTask">
+                Додати задачу
+            </button>
+
+            <button id="pauseQueue">
+                Пауза черги
+            </button>
+
+            <button id="resumeQueue">
+                Продовжити чергу
+            </button>
+
+        </div>
+
+        <!-- ЖУРНАЛ ЧЕРГИ -->
+
+        <h2>
+            Журнал черги
+        </h2>
+
+        <ul id="queueLog"></ul>
+
+    </div>
+
+    <!-- ПІДКЛЮЧЕННЯ JS -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
