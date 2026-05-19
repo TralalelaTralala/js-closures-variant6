@@ -1,0 +1,1 @@
+# js-closures-variant6
